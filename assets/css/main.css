@@ -96,60 +96,6 @@ button
             box-shadow: none;
 }
 
-/* Updated Responsive Rules to optimize typography and layouts on small devices */
-@media (max-width: 768px)
-{
-    h1 { font-size: 4.2rem; line-height: 1.2; }
-    h2 { font-size: 3.2rem; }
-    h3 { font-size: 2.8rem; }
-    h4 { font-size: 2.4rem; }
-    
-    #intro {
-        height: auto !important;
-        min-height: 100vh;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        padding: 60px 20px;
-    }
-    
-    #intro .container-mid {
-        position: relative !important;
-        top: 0 !important;
-        -webkit-transform: none !important;
-            -ms-transform: none !important;
-                transform: none !important;
-    }
-    
-    #intro .container-mid a {
-        font-size: 1.8rem !important;
-        line-height: 1.5 !important;
-        display: -webkit-inline-box !important;
-        display: -ms-inline-flexbox !important;
-        display: inline-flex !important;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-        width: 100%;
-    }
-    
-    #intro .container-mid a .circle {
-        margin-left: 0.5em;
-        margin-top: 10px;
-    }
-}
-
 @media (max-width:600px)
 {
     html
@@ -588,4 +534,3 @@ button
     text-align: left;
 
     border: none;
-}
